@@ -1,0 +1,38 @@
+.addtask{
+    // background-color: rebeccapurple;
+    display: flex;
+    .home-container{
+        background-color: white;
+        flex: 6;
+        .inputcontainer{
+            -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            padding: 20px;
+            margin: 20px;
+            .inputtitle{
+                font-weight: 500;
+                color: gray;
+                margin-bottom:15px ;
+            }
+            .inputwrapper{
+                display: flex;
+                flex-direction: column;
+                .inputs{
+                    flex: 1;
+                    min-width: 40%;
+                    margin: 10px 0;
+                    padding: 10px;
+                }
+            }
+            .btn_input{
+                width: 40%;
+                border: none;
+                padding: 15px 20px;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

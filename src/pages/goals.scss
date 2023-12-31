@@ -1,0 +1,11 @@
+.goals{
+    display: flex;
+
+    .home-container{
+        background-color: white;
+        flex: 6;
+        .goal-container{
+            margin: 20px;
+        }
+    }
+}

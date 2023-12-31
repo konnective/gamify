@@ -1,0 +1,32 @@
+.single_goal{
+    padding: 30px;
+    margin-top: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    .goal-title{
+        font-weight: 300;
+        font-size: 28px;
+        // background-color: #412828;
+    }
+    .btn{
+        margin:10px 0px;
+        text-align: center;
+        width: 10%;
+        border: none;
+        padding: 15px 20px;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background-color: rgb(11, 20, 20);
+        }
+    }
+    .points{
+        font-size: 25px;
+        font-weight: 300;
+    }
+}

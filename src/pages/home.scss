@@ -1,0 +1,45 @@
+.home{
+    // background-color: rebeccapurple;
+    display: flex;
+    .home-container{
+        background-color: white;
+        flex: 6;
+        .charts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .listcontainer{
+            -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            padding: 20px;
+            margin: 20px;
+
+            .listtitle{
+                font-weight: 500;
+                color: gray;
+                margin-bottom:15px;
+            }
+            .refresh{
+                margin:10px 0px;
+                width: 10%;
+                border: none;
+                padding: 15px 20px;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgb(11, 20, 20);
+                } 
+            }
+        }
+        .widgets{
+            display:flex;
+            padding: 20px;
+            gap: 20px;
+            .spacing{
+                flex:3;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.table{
+    .btn_table{
+        padding: 10px;
+        background-color: mediumorchid;
+        &:hover{
+            background-color: magenta;
+            color: white;
+            cursor: pointer;
+        }
+
+    }
+
+    
+   
+}
